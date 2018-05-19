@@ -4,13 +4,15 @@ import {render} from 'react-dom';
 import {Provider} from 'react-redux';
 import store from './store';
 import DevTools from './DevTools';
-import {getCountries} from './actions/actions-countries';
+import { Router, hashHistory } from 'react-router';
+import routes from './routes.jsx';
+import './country.css'
 
 render (
-    
         <Provider store={store}>
             <div>
-            <h1>Inicjalizcja projektu</h1>
+                <Router history={hashHistory} routes={routes}/>
+
             <DevTools />
             </div>
         </Provider>
@@ -20,4 +22,4 @@ render (
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();
-store.dispatch(getCountries());
+
