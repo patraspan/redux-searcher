@@ -6,7 +6,7 @@ import store from './store';
 import DevTools from './DevTools';
 import { Router, hashHistory } from 'react-router';
 import routes from './routes.jsx';
-import './country.css'
+import './country.scss'
 
 render (
         <Provider store={store}>
