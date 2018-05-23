@@ -12,7 +12,7 @@
     "populace": "4.59",
     "capital": "Dublin",
     "continent": "Europa",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/1200px-Flag_of_Ireland.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/900px-Flag_of_Ireland.svg.png",
     "id": 2
   }, {
     "name": "Holandia",
@@ -46,4 +46,23 @@
     "continent": "Afryka",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/900px-Flag_of_Algeria.svg.png",
     "id": 6
-  }]
+  },
+  {
+    "name": "Afganistan",
+    "currency" : "AFN",
+    "populace": "35.53",
+    "capital": "Kabul",
+    "continent": "Azja",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/900px-Flag_of_Afghanistan.svg.png",
+    "id": 7
+  },
+  {
+    "name": "Chiny",
+    "currency" : "CNY",
+    "populace": "1 347.37",
+    "capital": "Pekin",
+    "continent": "Azja",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/900px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    "id": 8
+  }
+]

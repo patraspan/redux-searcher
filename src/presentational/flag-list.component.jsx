@@ -10,7 +10,7 @@ const CountryFlagList = (props) => (
                     <Link className='logo' to={'countries/country/' + country.id}>
                         <CountryFlag country={country} />
                     </Link>
-                    <button onClick={props.deleteCountry.bind(null, country.id)}>Delete</button>
+                    <button className='btn btn-danger btn-block' onClick={props.deleteCountry.bind(null, country.id)}>Delete</button>
                 </div>
             )
         })}
